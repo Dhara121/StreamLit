@@ -5,10 +5,10 @@ import numpy as np
 model = joblib.load('sentiment_model.pkl')
 labels = ['negative', 'neutral', 'positive']
 
-st.title("🧠 Sentiment Analysis Web App")
+st.title("Sentiment Analysis Web App")
 st.write("Enter a sentence to predict sentiment:")
 
-user_input = st.text_area("💬 Input Text")
+user_input = st.text_area(" Input Text")
 
 if st.button("Analyze Sentiment"):
     if user_input.strip() == "":
