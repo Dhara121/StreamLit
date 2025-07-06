@@ -19,7 +19,7 @@ if st.button("Analyze Sentiment"):
 
         st.success(f"🔍 Predicted Sentiment: **{prediction.capitalize()}**")
 
-        st.subheader("📊 Sentiment Probabilities")
+        st.subheader(" Sentiment Probabilities")
         st.bar_chart({
             'Sentiment': labels,
             'Probability': proba
