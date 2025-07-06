@@ -1,0 +1,27 @@
+#  Sentiment Analysis Web App (Streamlit)
+
+An interactive web app built using Streamlit to analyze sentiment (Positive, Negative, Neutral) from user input text using a trained machine learning model.
+
+##  Features
+
+- Enter a sentence or review and get real-time sentiment prediction
+- View model confidence with a bar chart
+- Simple UI using Streamlit
+- Lightweight ML model using TF-IDF + Logistic Regression
+
+##  Tech Stack
+
+- Python
+- Scikit-learn
+- Streamlit
+- Pandas
+- Joblib
+
+##  Model
+
+Trained on a small sample dataset of labeled sentiment phrases using a pipeline:
+- `TfidfVectorizer`
+- `LogisticRegression`
+
+
+
